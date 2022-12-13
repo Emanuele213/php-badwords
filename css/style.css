@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: red;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.num {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+form {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    font-size: 2rem;
+    width: 500px;
+    text-align: center;
+    border-radius: 2rem;
+    padding: .5rem;
+}
+
+.mod-btn {
+    padding: .5rem;
+    font-size: 1.5rem;
+    background-color: blue;
+    border: 0;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+}
