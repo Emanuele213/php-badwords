@@ -59,3 +59,10 @@ input {
     color: white;
     cursor: pointer;
 }
+
+.num-censor {
+    margin-top: 1rem;
+    color: greenyellow;
+    font-size: 2rem;
+    font-weight: bold;
+}
